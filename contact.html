@@ -13,6 +13,44 @@
     <div>
         <a href="index.html">Terug naar home pagina.</a>
     </div>
+    <p></p>
+
+    <form action="" method="post" class="formulier" novalidate="novalidate" data-status="init">
+        <div style="display: none;">        
+        </div>
+        <p>
+          <span class="formulier" data-name="text">
+            <input type="text" name="text" value="Your name" size="40" class="formulier" aria-invalid="false">
+          </span>
+        </p>
+        <p>
+          <span class="formulier" data-name="email">
+            <input type="email" name="email" value="Your Email" size="40" class="formulier" aria-required="true" aria-invalid="false">
+          </span>
+        </p>
+        <p>
+          <span class="formulier" data-name="your-message">
+            <textarea name="your-message" cols="4" rows="4" class="formulier" aria-invalid="false" style="height: 160px; width: 965px;">
+              Your message here ...
+            </textarea>
+          </span>
+        </p>
+        <p>
+          <input type="submit" value="Send" class="formulier">
+          <span class="formulier">
+          </span>
+        </p>
+        <p style="display: none !important;">
+          <label>
+            Δ
+            <textarea name="textarea" cols="45" rows="8" maxlength="100">
+            </textarea>
+          </label>
+          <input type="hidden" id="textarea" name="textarea" value="1668115187844">
+        </p>
+        <div class="output" aria-hidden="true">
+        </div>
+      </form>
 </body>
 
 </html>

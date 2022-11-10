@@ -210,6 +210,62 @@ body {
   } 
 }     
 
+@media all { 
+  *,:before,:after { 
+    -webkit-box-sizing:  inherit; 
+    -moz-box-sizing:  inherit; 
+    box-sizing:  inherit;
+  }
+
+  .formulier { 
+    position: relative;
+  }
+}
+
+@media all{ 
+  html { 
+    -webkit-box-sizing:    border-box; 
+    -moz-box-sizing:    border-box; 
+    box-sizing:   border-box;
+    line-height:  1.15; 
+    -webkit-text-size-adjust:  100%;
+    font-family: sans-serif; 
+    -ms-text-size-adjust: 100%; 
+  } 
+
+  input { 
+    font-family:    montserrat,sans-serif;
+    font-size:   1rem; 
+    margin:      0;
+    overflow:      visible;
+    line-height:   1.75;
+    color: #999;
+  } 
+}     
+
+input { 
+    font-family:  "Poppins", sans-serif;
+    color: #999999;
+} 
+
+@media all{ 
+  input[type="text"] { 
+    transition:    .2s border-color .2s ease-in,.2s color .2s ease-in;
+    background-color:   #000;
+    border:   1px solid; 
+    border-width:   0 0 1px; 
+    margin-top:   7px; 
+    padding:   14px; 
+    width:   100%;
+    border-color: #252525;
+  } 
+}     
+
+input[type="text"] { 
+    background-color:  #000000;
+    border-color: #252525;
+} 
+
 @media all{ 
   *,:before,:after { 
     -webkit-box-sizing:  inherit; 
