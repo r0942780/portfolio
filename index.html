@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="stijl.css" /> 
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stijl.css">
     <style>
         body {
             margin: 0;
@@ -90,13 +90,65 @@
         <a href="#" class="icon" onclick="toggleResponsiveClass()">
             <i class="fa fa-bars"></i>
         </a>
+
+    <div class="section-heading-wrapper">
+        <div class="section-subtitle">
+          <p>
+            <h2 class="section-title">Your goal is my code!</h2><br><img src="img/Sven.jpg" alt="Sven">
+          </p>
+        </div>
     </div>
 
-    <div>
-        <h2 class="section-title">Your goal is my code!!</h2>
-    </div>
+    <div class="section-heading-wrapper">
+        <div class="section-subtitle">
+          <p>
+            What I Do
+          </p>
+        </div>
+        <div class="section-title-wrapper">
+          <h2 class="section-title">
+            I design &amp; build your website
+          </h2>
+        </div>
+      </div>
 
-    <script>
+      <div class="hentry-inner snipcss-PyjiN">
+        <div class="post-thumbnail">
+          <a href="contact.html" title="Responsive Design">
+            <img width="76" height="76" src="img/services.png" class="attachment-photofocus-services size-photofocus-services wp-post-image" alt="" loading="lazy" srcset="https://catchthemes.com/demo/photofocus-corporate/files/2020/11/services-3.png 76w, https://catchthemes.com/demo/photofocus-corporate/files/2020/11/services-3-50x50.png 50w" sizes="(max-width: 76px) 100vw, 76px">
+          </a>
+        </div>
+        <div class="entry-container">
+          <header class="entry-header">
+            <h2 class="entry-title">
+              <a href="contact.html" rel="bookmark">
+                Responsive Design
+              </a>
+            </h2>
+          </header>
+          <div class="entry-summary">
+            <p>
+              Contacteer me voor jouw project &amp; meer informatie.
+            </p>
+            <p class="more-link">
+              <a href="contact.html" class="readmore">
+                Contacteer me
+                <svg class="icon icon-arrow-right" aria-hidden="true" role="img">
+                  <use href="#icon-arrow-right" xlink:href="#icon-arrow-right">
+                  </use>
+                </svg>
+                <span class="screen-reader-text">
+                  Responsive Design
+                </span>
+              </a>
+            </p>
+            <p>
+            </p>
+          </div>
+        </div>
+      </div>      
+      
+<script>
         function toggleResponsiveClass() {
             var element = document.getElementById("navigation-head");
             if (element.className === "navigation") {
