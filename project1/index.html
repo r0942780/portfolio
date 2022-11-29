@@ -71,15 +71,22 @@
     </style>
 </head>
 <body>
-    <a name="top"></a>
-    <a href="#top">Back to top of page</a> 
 
-    <div style="background-color: #00090a; color: white; padding: 5px">
-        <p><img width="49" height="51" src="img/letter.png" class="custom-logo" alt="letter S">
-        <h1>My Portfolio</h1>
-        <h4>Sven De Backer</h4></p>
+  <div class="site-branding">
+    <a href="https:svendb-portfolio.be/project1" class="custom-logo-link" rel="home" aria-current="page">
+      <img width="49" height="51" src="img/letter.png" class="custom-logo" alt="letter S" decoding="async">
+    </a>
+    <div class="site-identity">
+      <h1 class="site-title">
+        <a href="https:svendb-portfolio.be/project1" rel="home">
+          Sven De Backer
+        </a>
+      </h1>
+      <p class="site-description">
+        Portfolio
+      </p>
     </div>
-    <p></p>
+  </div>
     <div class="navigation" id="navigation-head">
         <a href="#" class="active">Start</a>
         <a href="index.html">Home</a>
@@ -147,7 +154,8 @@
           </div>
         </div>
       </div>      
-      
+      <a name="top"></a>
+      <a href="#top">Back to top of page</a>   
 <script>
         function toggleResponsiveClass() {
             var element = document.getElementById("navigation-head");

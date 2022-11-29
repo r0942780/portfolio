@@ -12,6 +12,54 @@
     width: 100%;
   } 
 
+  .site-header-main .wrapper { 
+    display: flex; 
+    display: -ms-flexbox; 
+    display: -webkit-flex; 
+    max-width:  100%;
+    -webkit-align-items: center; 
+    -ms-flex-align: center; 
+    align-items: center; 
+    -webkit-flex-wrap: wrap; 
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap; 
+    padding: 7px 30px; 
+    position: relative;
+  } 
+}     
+
+@media only screen and (min-width: 75em){ 
+  .site-header-main .wrapper { 
+    padding: 14px 30px;
+  } 
+}     
+
+@media all{ 
+  header .site-header-main { 
+    border-color: #252525;
+  } 
+}     
+
+header .site-header-main { 
+    border-color: #252525;
+} 
+
+@media all{ 
+  header { 
+    display: block;
+  } 
+
+  .site-header { 
+    position: relative;
+  } 
+
+  .absolute-header .site-header { 
+    position: absolute; 
+    left: 0; 
+    width: 100%; 
+    top: 0; 
+    z-index: 99;
+  } 
   .section { 
     clear: both; 
     display: block; 
@@ -469,6 +517,28 @@ a {
 } 
 
 @media all{ 
+  .custom-logo-link { 
+    display: inline-block;
+  } 
+
+  a:visited { 
+    text-decoration: none;
+  } 
+
+  .custom-logo-link  { 
+    display: block;
+  } 
+}     
+
+@media screen and (min-width: 30em){ 
+  .custom-logo-link  { 
+    display: block;
+    margin-right:  15px; 
+    margin-bottom:  0;
+  } 
+}     
+
+@media all{ 
   a:visited { 
     text-decoration: none;
   } 
@@ -744,3 +814,64 @@ a:hover,.more-link .readmore:hover  {
   margin-right: auto;
   width: 50%;
 }     
+@media all{ 
+  html { 
+    -webkit-box-sizing:    border-box; 
+    -moz-box-sizing:    border-box; 
+    box-sizing:   border-box;
+    line-height:  1.15; 
+    -webkit-text-size-adjust:  100%;
+    font-family: sans-serif; 
+    -ms-text-size-adjust: 100%; 
+  } 
+
+  .site-branding { 
+    display: flex; 
+    display: -ms-flexbox; 
+    display: -webkit-box; 
+    margin:  14px auto 14px 0; 
+    max-width:  80%; 
+    min-width:  0; 
+    text-align:  left; 
+    overflow:  hidden; 
+    width:  auto;
+    -webkit-box-align: center; 
+    -ms-flex-align: center; 
+    align-items: center;
+  } 
+}     
+
+@media screen and (min-width: 64em){ 
+  .site-branding { 
+    margin: 14px auto 14px 20px;
+  } 
+}     
+
+@media only screen and (min-width: 75em){ 
+  .site-branding  { 
+    text-align: left;
+  } 
+}
+
+@media all{ 
+  *,:before,:after { 
+    -webkit-box-sizing:  inherit; 
+    -moz-box-sizing:  inherit; 
+    box-sizing:  inherit;
+  } 
+
+  a { 
+    -webkit-transition:    all .25s ease-in-out; 
+    -moz-transition:    all .25s ease-in-out; 
+    -o-transition:    all .25s ease-in-out; 
+    transition:    all .25s ease-in-out;
+    background-color:   transparent;
+    text-decoration:  none;
+    color: #fff;
+  } 
+}     
+
+a { 
+    color: #ffffff;
+} 
+     
