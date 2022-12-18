@@ -7,11 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="css/heroes.css">
+  <script src="https://kit.fontawesome.com/eb1c92b418.js" crossorigin="anonymous"></script>
   <title>Portfolio_Project2</title>
 </head>
 
+<!-- Navbar -->
 <body>
   <div class="container">
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
@@ -25,17 +26,17 @@
             <use xlink:href="#bootstrap" width="49">
             </use>
           </svg>
-            <span class="site-identity">
-              <h1 class="site-title">
-                <a href="#" rel="home">
-                  Sven De Backer
-                </a>
-              </h1>
-              <p class="site-description">
-                Portfolio
-              </p>
-            </span>
-        </div>    
+          <span class="site-identity">
+            <h1 class="site-title">
+              <a href="#" rel="home">
+                Sven De Backer
+              </a>
+            </h1>
+            <p class="site-description">
+              Portfolio
+            </p>
+          </span>
+        </div>
       </a>
       <ul class="nav nav-pills">
         <li class="nav-item">
@@ -44,22 +45,17 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">
+          <a href="cv.html" class="nav-link">
             CV
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">
-            Ervaring
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">
+          <a href="hobby.html" class="nav-link">
             Hobby
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">
+          <a href="contact.html" class="nav-link">
             Contact
           </a>
         </li>
@@ -81,38 +77,30 @@
           <h1 class="display-5 fw-bold lh-1 mb-3">Your goal is<br>my &lt;code&gt;</h1>
           <p class="lead">Are you looking for quality full stack web development?<br>
             Then search no more. You have come to the right place.<br>
-            Our services develop and maintain your web development needs.<br>
+            Passionate about webdesign tailored to your needs.<br>
           </p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start" class="buttonitems">
             <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">View More</button>
             <button type="button" class="btn btn-outline-light btn-lg px-4">Start Now</button>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="scroll-down">
-      <span>
-        Scroll
-      </span>
-      <svg class="icon icon-arrow-right" aria-hidden="true" role="img">
-        <use href="#icon-arrow-right" xlink:href="#icon-arrow-right">
-        </use>
-      </svg>
-    </div>
+    <br><br><br><br><br><br>
+    <section id="section03" class="demo">
+      <a href="#section03"><span></span>Scroll</a>
+    </section>
 
     <div class="b-example-divider"></div>
 
     <div class="bg-dark text-secondary px-4 py-5 text-center">
       <div class="py-5">
-        <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
+        <h1 class="display-5 fw-bold text-white">Get In Touch</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
-            most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-            extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <p class="fs-5 mb-4">Whether you have a question or want to know more, feel free to contact me.</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
-            <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
+            <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Contact</button>
+            <button type="button" class="btn btn-outline-light btn-lg px-4">CV</button>
           </div>
         </div>
       </div>
@@ -121,6 +109,33 @@
     <div class="b-example-divider mb-0"></div>
 
   </main>
-</body>
 
+  		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+						<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<div class="social">
+                <span class="fa-stack fa-2x" style="--fa-inverse: #1da1f2;">
+                  <i class="fab fa-brands fa-square-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="fa-stack fa-2x" style="--fa-inverse: #1da1f2;">
+                  <i class="fab fa-brands fa-square-github fa-stack-1x fa-inverse"></i>
+                </span>
+								<span class="fa-stack fa-2x" style="--fa-inverse: #1da1f2;">
+                  <i class="fab fa-brands fa-square-github fa-stack-1x fa-inverse"></i>
+                </span>            
+							</div>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Sven De Backer. All rights reserved.</li>
+						</ul>
+					</footer>
+				</div>
+			</article>
+</body>
 </html>
