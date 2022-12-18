@@ -27,6 +27,10 @@
     scroll-behavior:  smooth;
   } 
 
+  /*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+
   .site-branding { 
     display: flex; 
     display: -ms-flexbox; 
@@ -100,33 +104,9 @@
     color: #ffffff;
 } 
 
-@media all{ 
-  a:active,a:hover { 
-    outline-width: 0;
-  } 
-
-  a:hover,a:active { 
-    outline: 0;
-  } 
-
-  a:hover { 
-    color: #d98e4a;
-  } 
-}     
-
-a:hover { 
-    color: #0688ff;
-} 
-
-@media all{ 
-  .site-identity { 
-    display: none;
-  } 
-}     
-
 @media screen and (min-width: 30em){ 
   .site-identity { 
-    display: block;
+    display: inline-block;
   } 
 }     
 
@@ -168,8 +148,6 @@ a:hover {
 
 @media all{ 
   .site-title { 
-    font-family: playfair display,serif; 
-    font-size: 1.125rem; 
     font-weight: 700; 
     line-height: 1.458333333333333; 
     letter-spacing: .1666666666666667em; 
@@ -217,6 +195,7 @@ a:hover {
     line-height: 1.615384615384615; 
     margin: 0; 
     text-transform: capitalize;
+    text-align: center;
   } 
 }     
 
@@ -248,18 +227,11 @@ a:hover {
     color: #ffffff;
 } 
 
-@media all{ 
-  a:hover,.site-title a:hover  { 
-    color: #d98e4a;
-  } 
-}     
-
 a:hover,.site-title a:hover  { 
     color: #0688ff;
 } 
 
-body { 
-  /* CSS Variables that may have been missed get put on body */ 
+body {  
       --bs-gutter-x:  1.5rem;  
       --bs-text-opacity:  1;  
       --bs-nav-link-padding-x:  1rem;  
@@ -494,8 +466,11 @@ body {
       -ms-word-wrap: break-word; 
       word-wrap: break-word;
     } 
+  }
   
- 
+/*--------------------------------------------------------------
+# Middle Section
+--------------------------------------------------------------*/
   @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
 * {
   margin: 0;
@@ -530,71 +505,6 @@ section h1 {
   white-space: nowrap;
 }
 
-.demo a {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  z-index: 2;
-  display: inline-block;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  color: #fff;
-  font : normal 400 20px/1 'Josefin Sans', sans-serif;
-  letter-spacing: .1em;
-  text-decoration: none;
-  transition: opacity .3s;
-}
-.demo a:hover {
-  opacity: .5;
-}
-
-#section03 { 
-background: url(https://picsum.photos/1200/800?image=869) center center / cover no-repeat;
-}
-
-#section03 a {
-  padding-top: 60px;
-}
-#section03 a span {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 46px;
-  height: 46px;
-  margin-left: -23px;
-  border: 1px solid #fff;
-  border-radius: 100%;
-  box-sizing: border-box;
-}
-#section03 a span::after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  content: '';
-  width: 16px;
-  height: 16px;
-  margin: -12px 0 0 -8px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  box-sizing: border-box;
-}
-#section03 a span::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  content: '';
-  width: 44px;
-  height: 44px;
-  box-shadow: 0 0 0 0 rgba(255,255,255,.1);
-  border-radius: 100%;
-  opacity: 0;
-  -webkit-animation: sdb03 3s infinite;
-  animation: sdb03 3s infinite;
-  box-sizing: border-box;
-}
 @-webkit-keyframes sdb03 {
   0% {
     opacity: 0;
@@ -629,13 +539,6 @@ background: url(https://picsum.photos/1200/800?image=869) center center / cover 
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
-
-/*
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 
 
 article, aside, footer, section {
@@ -1126,3 +1029,4 @@ a:hover  {
 *,:before,:after { 
     box-sizing: inherit;
 } 
+    }
